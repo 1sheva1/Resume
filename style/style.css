@@ -124,4 +124,23 @@
   margin: 0 0 5px;
 }
 
+@media (max-width: 480px) {
+  .resume {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .img-main {
+    width: calc(100% - 40px);
+  }
+
+  .short-info {
+    width: 100%;
+  }
+
+  .detail-info {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
